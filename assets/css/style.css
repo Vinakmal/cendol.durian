@@ -1,0 +1,39 @@
+body{
+    background-image: url(../img/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+    
+}
+
+
+.logo{
+    width: 250px;
+    padding-top: 100px;
+}
+
+.menu{
+    padding-top: 50px;
+    
+}
+
+
+button{
+    background: black;
+    border: 3px solid black;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    width: 250px;
+    padding: 10px 10px;
+}
+
+button:hover{
+    background: transparent;
+    color: rgb(0, 0, 0);
+   
+}
+
+
+
