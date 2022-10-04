@@ -8,12 +8,30 @@ body{
     
 }
 
+.judul{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
 
+.judul img{
+    width: 110px;
+}
+
+.judul h1{
+    padding-top: 20px;
+  padding-left: 3px;
+}
+
+
+img{
+    border-radius: 20px;
+}
 
 .thumbnail{
     text-align: center;
     padding-top: 100px;   
-    border-radius: 50px;
+    
 }
 
 .people{
@@ -30,11 +48,16 @@ p{
     text-align: center;
     font-size: 20px;
     color: white;
-    padding-top: 150px;
    color: black;
+   padding-top: 150px;
     text-align: center;
   
     
     
+}
+
+.footer{
+    justify-items: center;
+    color: white;
 }
 
