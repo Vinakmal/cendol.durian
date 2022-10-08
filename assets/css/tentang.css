@@ -9,7 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    
    
     
 }
@@ -20,12 +20,12 @@ body{
 }
 
 .judul img{
-    width: 210px;
+    width: 150px;
 }
 
 .judul h2{
-    padding-top: 20px;
-  padding-left: 3px;
+    padding-top: 50px;
+  padding-left: 10px;
 }
 
 
