@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
 body{
     background-image: url(../img/banner2.png);
     background-repeat: no-repeat;
@@ -14,10 +20,10 @@ body{
 }
 
 .judul img{
-    width: 110px;
+    width: 210px;
 }
 
-.judul h1{
+.judul h2{
     padding-top: 20px;
   padding-left: 3px;
 }
