@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Montserrat:wght@300&display=swap');
 *{
     font-family: Montserrat;
     font-weight: bold;
@@ -29,12 +29,16 @@ body{
 }
 
 h3{
-    font-style: italic;
-    text-align: center;
+    color: white;
+    font-family: Alkalami;
+    font-weight: bold;
+    text-align: start;
     padding-top: 50px;
 }
-img{
-    border-radius: 20px;
+.people img{
+    width: 150px;
+    height:150px ;
+    border-radius: 250px;
 }
 
 .thumbnail{
@@ -43,10 +47,7 @@ img{
     
 }
 
-.people{
-    width: 250px;
-    height: 250px;
-}
+
 
 .label{
     width: 100px;
@@ -55,20 +56,69 @@ img{
 
 p{
     
-    font-size: 20px;
+    font-size: 15px;
     color: white;
    color: black;
     text-align: center;
-    background: white;
-    border-radius: 10px;
-   
+  
   
     
     
 }
 
-.footer{
-    justify-items: center;
-    color: white;
-}
+@media (min-width: 992px) { 
 
+    .judul{
+        text-align: center;
+        padding-top: 50px;
+        color: white;
+    }
+    
+    .judul img{
+        width: 150px;
+    }
+    
+    .judul h2{
+        padding-top: 50px;
+      padding-left: 10px;
+    }
+    
+    h3{
+        text-align: start;
+        padding-top: 50px;
+    }
+    .people img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+    
+    .thumbnail{
+        text-align: center;
+        padding-top: 100px;   
+        
+    }
+    
+    .people{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .label{
+        width: 100px;
+        height: 30px;
+    }
+    
+    p{
+        
+        font-size: 20px;
+        color: white;
+       color: black;
+        text-align: center;
+        
+      
+      
+        
+        
+    }
+}
