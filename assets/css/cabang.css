@@ -1,125 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Montserrat:wght@300&display=swap');
-*{
-    font-family: Montserrat;
-    font-weight: bold;
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Montserrat:wght@300&display=swap");
+* {
+  font-family: Montserrat;
+  font-weight: bold;
 }
-body{
-    background-image: url(../img/banner1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-   
- 
-    
+body {
+  background-image: url(../img/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.judul{
-    text-align: center;
-    padding-top: 50px;
-    color: white;
+.judul {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
 }
 
-.judul img{
-    width: 150px;
+.judul img {
+  width: 150px;
 }
 
-.judul h2{
-    padding-top: 50px;
+.judul h2 {
+  padding-top: 20px;
   padding-left: 10px;
 }
 
-strong{
+strong {
+  font-family: Alkalami;
+  font-weight: bold;
+  font-size: 20px;
+}
+.people img {
+  width: 100px;
+  height: 120px;
+  border-radius: 250px;
+}
+
+.label {
+  width: 100px;
+  height: 30px;
+}
+
+p {
+  font-size: 13px;
+  color: white;
+  color: black;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .judul {
+    text-align: center;
+    padding-top: 50px;
     color: white;
+  }
+
+  .judul img {
+    width: 150px;
+  }
+
+  .judul h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+  }
+
+  strong {
     font-family: Alkalami;
     font-weight: bold;
-    font-size: 20px;
-    
-}
-.people img{
-    width: 120px;
-    height:120px ;
-    border-radius: 250px;
-}
+    padding-top: 50px;
+    font-size: 30px;
+  }
 
-.thumbnail{
-    text-align: center;
-    padding-top: 100px;   
-    
-}
+  .people img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
 
+  .people img {
+    width: 200px;
+    height: 220px;
+  }
 
-
-.label{
+  .label {
     width: 100px;
     height: 30px;
-}
+  }
 
-p{
-    
-    font-size: 13px;
+  p {
+    font-size: 20px;
     color: white;
-   color: black;
+    color: black;
     text-align: center;
-  
-  
-    
-    
-}
-
-@media (min-width: 992px) { 
-
-    .judul{
-        text-align: center;
-        padding-top: 50px;
-        color: white;
-    }
-    
-    .judul img{
-        width: 150px;
-    }
-    
-    .judul h2{
-        padding-top: 50px;
-      padding-left: 10px;
-    }
-    
-    strong{
-        text-align: start;
-        padding-top: 50px;
-        padding-left: 100px;
-    }
-    .people img{
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-    }
-    
-    .thumbnail{
-        text-align: center;
-        padding-top: 100px;   
-        
-    }
-    
-    .people{
-        width: 250px;
-        height: 250px;
-    }
-    
-    .label{
-        width: 100px;
-        height: 30px;
-    }
-    
-    p{
-        
-        font-size: 20px;
-        color: white;
-       color: black;
-        text-align: center;
-        
-      
-      
-        
-        
-    }
+  }
 }
