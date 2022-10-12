@@ -1,0 +1,16 @@
+img {
+    width: 368px;
+    height: 500px;
+    position: relative;
+  
+  }
+
+
+
+  @media (min-width: 992px) {
+    img {
+        width: 1110px;
+        height: 200vh;
+      }
+
+  }
